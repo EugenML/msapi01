@@ -2030,6 +2030,9 @@
           "description": "Key-value pairs of additional properties for the event source."
         }
       },
+      "required": [
+        "kind"
+      ],
       "description": "Parameters supplied to the Update Event Source operation."
     },
     "EventHubEventSourceUpdateParameters": {
